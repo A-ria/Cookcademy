@@ -12,6 +12,9 @@
 		003052052A6EF2D000CDBF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003052042A6EF2D000CDBF4F /* Assets.xcassets */; };
 		003052082A6EF2D000CDBF4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003052072A6EF2D000CDBF4F /* Preview Assets.xcassets */; };
 		0030520F2A6EF36F00CDBF4F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030520E2A6EF36F00CDBF4F /* Recipe.swift */; };
+		00449DA42A799E8200D0778D /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00449DA32A799E8200D0778D /* ModifyMainInformationView.swift */; };
+		00449DA62A79B42100D0778D /* ModifyIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00449DA52A79B42100D0778D /* ModifyIngredientView.swift */; };
+		00449DA82A79B72A00D0778D /* ModifyIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00449DA72A79B72A00D0778D /* ModifyIngredientsView.swift */; };
 		005AF6872A75938D00314523 /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005AF6862A75938D00314523 /* ModifyRecipeView.swift */; };
 		006617842A6F3C320014D00D /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006617832A6F3C320014D00D /* RecipeData.swift */; };
 		006617862A6F3E3B0014D00D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006617852A6F3E3B0014D00D /* RecipeDetailView.swift */; };
@@ -26,6 +29,9 @@
 		003052042A6EF2D000CDBF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003052072A6EF2D000CDBF4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0030520E2A6EF36F00CDBF4F /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		00449DA32A799E8200D0778D /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
+		00449DA52A79B42100D0778D /* ModifyIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyIngredientView.swift; sourceTree = "<group>"; };
+		00449DA72A79B72A00D0778D /* ModifyIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyIngredientsView.swift; sourceTree = "<group>"; };
 		005AF6862A75938D00314523 /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
 		006617832A6F3C320014D00D /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		006617852A6F3E3B0014D00D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				005AF6862A75938D00314523 /* ModifyRecipeView.swift */,
+				00449DA32A799E8200D0778D /* ModifyMainInformationView.swift */,
+				00449DA52A79B42100D0778D /* ModifyIngredientView.swift */,
+				00449DA72A79B72A00D0778D /* ModifyIngredientsView.swift */,
 			);
 			path = ModifyRecipes;
 			sourceTree = "<group>";
@@ -200,9 +209,12 @@
 				0066178A2A6F43BA0014D00D /* RecipeCategoryGridView.swift in Sources */,
 				006617842A6F3C320014D00D /* RecipeData.swift in Sources */,
 				005AF6872A75938D00314523 /* ModifyRecipeView.swift in Sources */,
+				00449DA82A79B72A00D0778D /* ModifyIngredientsView.swift in Sources */,
 				003052032A6EF2CF00CDBF4F /* RecipesListView.swift in Sources */,
 				003052012A6EF2CF00CDBF4F /* CookcademyApp.swift in Sources */,
+				00449DA42A799E8200D0778D /* ModifyMainInformationView.swift in Sources */,
 				006617882A6F40150014D00D /* AppColor.swift in Sources */,
+				00449DA62A79B42100D0778D /* ModifyIngredientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
