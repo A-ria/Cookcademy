@@ -21,6 +21,7 @@
 		006617862A6F3E3B0014D00D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006617852A6F3E3B0014D00D /* RecipeDetailView.swift */; };
 		006617882A6F40150014D00D /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006617872A6F40150014D00D /* AppColor.swift */; };
 		0066178A2A6F43BA0014D00D /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006617892A6F43BA0014D00D /* RecipeCategoryGridView.swift */; };
+		00ED6CA72A81B1ED00616E1C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED6CA62A81B1ED00616E1C /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		006617852A6F3E3B0014D00D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		006617872A6F40150014D00D /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		006617892A6F43BA0014D00D /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
+		00ED6CA62A81B1ED00616E1C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				005AF6852A75935C00314523 /* ModifyRecipes */,
 				005AF6842A75933F00314523 /* ExploreRecipes */,
+				00ED6CA62A81B1ED00616E1C /* MainTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				00449DAA2A7C6A3A00D0778D /* ModifyDirectionView.swift in Sources */,
 				005AF6872A75938D00314523 /* ModifyRecipeView.swift in Sources */,
 				00449DA82A79B72A00D0778D /* ModifyComponentsView.swift in Sources */,
+				00ED6CA72A81B1ED00616E1C /* MainTabView.swift in Sources */,
 				003052032A6EF2CF00CDBF4F /* RecipesListView.swift in Sources */,
 				003052012A6EF2CF00CDBF4F /* CookcademyApp.swift in Sources */,
 				00449DA42A799E8200D0778D /* ModifyMainInformationView.swift in Sources */,
